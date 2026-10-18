@@ -1,0 +1,12 @@
+[project]
+name = "ccsearch"
+version = "0.1.0"
+description = "클로드 코드 지난 대화 전체에서 검색하고, 그 채팅으로 바로 돌아가는 명령"
+requires-python = ">=3.9"
+
+[project.scripts]
+ccsearch = "ccsearch.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
